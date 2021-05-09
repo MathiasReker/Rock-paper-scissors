@@ -3,8 +3,12 @@
 [![Build Status][build-shield]][build-url]
 [![codecov][codecov-shield]][codecov-url]
 [![Codacy Badge][codacy-shield]][codacy-url]
+[![FOSSA Status][fossa-shield]][fassa-url]
 
 # Rock-paper-scissors
+
+## License
+[![FOSSA Status][fossa-large]][fossa-badge]
 
 [contributors-shield]: https://img.shields.io/github/contributors/MathiasReker/Rock-paper-scissors.svg
 
@@ -25,3 +29,11 @@
 [codacy-shield]: https://app.codacy.com/project/badge/Grade/66d7adf901b9461d83ee72be9db56460
 
 [codacy-url]: https://www.codacy.com/gh/MathiasReker/Rock-paper-scissors/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MathiasReker/Rock-paper-scissors&amp;utm_campaign=Badge_Grade
+
+[fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FMathiasReker%2FRock-paper-scissors.svg?type=shield
+
+[fossa-url]: https://app.fossa.com/projects/git%2Bgithub.com%2FMathiasReker%2FRock-paper-scissors?ref=badge_shield
+
+[fossa-large]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FMathiasReker%2FRock-paper-scissors.svg?type=large
+
+[fossa-badge]: https://app.fossa.com/projects/git%2Bgithub.com%2FMathiasReker%2FRock-paper-scissors?ref=badge_large
