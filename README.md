@@ -3,7 +3,7 @@
 [![Build Status][build-shield]][build-url]
 [![codecov][codecov-shield]][codecov-url]
 [![Codacy Badge][codacy-shield]][codacy-url]
-[![FOSSA Status][fossa-shield]][fassa-url]
+[![FOSSA Status][fossa-shield]][fossa-url]
 
 # Rock-paper-scissors
 
