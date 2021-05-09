@@ -16,12 +16,12 @@ enum Choice {
    * @param winBy int
    */
   Choice(int id, int winBy) {
-    this.ID = id;
-    this.WIN_BY = winBy;
+    ID = id;
+    WIN_BY = winBy;
   }
 
   /**
-   * Returns value of choice
+   * Returns value of choice.
    *
    * @param playerChoice is the choice chosen by the player.
    * @return Choice
@@ -43,6 +43,6 @@ enum Choice {
    * @return boolean
    */
   boolean isWinBy(Choice choice) {
-    return this.WIN_BY == choice.ID;
+    return WIN_BY == choice.ID;
   }
 }

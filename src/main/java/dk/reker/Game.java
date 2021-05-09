@@ -2,8 +2,8 @@ package dk.reker;
 
 class Game {
   private static final Score SCORE = new Score();
-  private Choice humanChoice = null;
-  private Choice computerChoice = null;
+  private Choice humanChoice;
+  private Choice computerChoice;
 
   /**
    * Start the game.
@@ -15,8 +15,8 @@ class Game {
   }
 
   /**
-   * Run the game best out of 3, but until a winner is found. If a game is a tie, the game will
-   * continue. Display the result.
+   * Run the game best out of 3, but until a winner is found. If a match is a tie, the game will
+   * continue. Call methods that display the result.
    */
   private void play() {
     while (SCORE.getHumanWins() + SCORE.getComputerWins() < 3
@@ -57,7 +57,7 @@ class Game {
     throw new IllegalArgumentException("Something went wrong");
   }
 
-  /** Factor a menu based on the possible choices. */
+  /** Display a menu based on the possible choices in the console. */
   void displayMenu() {
     String[] result = new String[Choice.values().length];
 

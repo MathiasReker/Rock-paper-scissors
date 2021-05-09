@@ -9,7 +9,7 @@ class Human implements Player {
   }
 
   /**
-   * Returns er a human choice. Get the choice from the keyboard.
+   * Returns the humans choice. Get the choice from the keyboard.
    *
    * @return int
    */
@@ -20,7 +20,7 @@ class Human implements Player {
   }
 
   /**
-   * Returns valid integer
+   * Returns a valid integer.
    *
    * @param in Scanner
    * @return int

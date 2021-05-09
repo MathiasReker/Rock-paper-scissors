@@ -10,7 +10,6 @@ import java.io.PrintStream;
 import java.util.NoSuchElementException;
 
 public class GameTest {
-
   @Test
   public void testCalculateResult() {
     String input = "-1";
@@ -24,7 +23,6 @@ public class GameTest {
   public void testDisplayMenu() {
     ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     System.setOut(new PrintStream(outContent));
-
     new Game().displayMenu();
 
     String expectedOutput = "ROCK [1], PAPER [2], SCISSORS [3]: ";

@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class ChoiceTest {
-
   @Test
   public void testValueOf() {
     Choice result = Choice.valueOf(1);
