@@ -1,2 +1,27 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![Build Status][build-shield]][build-url]
+[![codecov][codecov-shield]][codecov-url]
+[![Codacy Badge][codacy-shield]][codacy-url]
+
 # Rock-paper-scissors
-Rock paper scissors
+
+[contributors-shield]: https://img.shields.io/github/contributors/MathiasReker/Rock-paper-scissors.svg
+
+[contributors-url]: https://github.com/MathiasReker/Rock-paper-scissors/graphs/contributors
+
+[license-shield]: https://img.shields.io/github/license/MathiasReker/Rock-paper-scissors.svg
+
+[license-url]: https://github.com/MathiasReker/Rock-paper-scissors/blob/develop/LICENSE
+
+[build-shield]: https://travis-ci.com/MathiasReker/Rock-paper-scissors.svg?branch=develop
+
+[build-url]: https://travis-ci.com/MathiasReker/Rock-paper-scissors
+
+[codecov-shield]: https://codecov.io/gh/MathiasReker/Rock-paper-scissors/branch/develop/graph/badge.svg?token=Y1CGFZUB9O
+
+[codecov-url]: https://codecov.io/gh/MathiasReker/Rock-paper-scissors
+
+[codacy-shield]: https://app.codacy.com/project/badge/Grade/66d7adf901b9461d83ee72be9db56460
+
+[codacy-url]: https://www.codacy.com/gh/MathiasReker/Rock-paper-scissors/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MathiasReker/Rock-paper-scissors&amp;utm_campaign=Badge_Grade
