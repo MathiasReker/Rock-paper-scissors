@@ -7,7 +7,7 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.NoSuchElementException;
 
-class HumanTest {
+public class HumanTest {
   @Test
   public void testTakeTurnRock() {
     Choice result = Choice.valueOf(1);
