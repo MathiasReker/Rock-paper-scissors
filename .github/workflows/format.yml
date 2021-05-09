@@ -3,7 +3,7 @@ name: Format
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
 
@@ -14,4 +14,3 @@ jobs:
       - uses: axel-op/googlejavaformat-action@v3
         with:
           args: "--skip-sorting-imports --replace"
-          
