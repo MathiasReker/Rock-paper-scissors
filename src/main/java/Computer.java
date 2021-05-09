@@ -11,7 +11,7 @@ class Computer implements Player {
    *
    * @return int
    */
-  private int getChoice() {
+  int getChoice() {
     return new Random().nextInt(3) + 1;
   }
 }
