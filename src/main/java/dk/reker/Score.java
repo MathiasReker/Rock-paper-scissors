@@ -1,3 +1,5 @@
+package dk.reker;
+
 /** Keeps track of the score. */
 class Score {
   private int gamesWonByHuman;

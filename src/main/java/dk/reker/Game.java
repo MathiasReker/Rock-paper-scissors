@@ -1,3 +1,5 @@
+package dk.reker;
+
 class Game {
   private static final Score SCORE = new Score();
   private Choice humanChoice = null;

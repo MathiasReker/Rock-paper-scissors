@@ -1,3 +1,5 @@
+package dk.reker;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

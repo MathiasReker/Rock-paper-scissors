@@ -1,3 +1,5 @@
+package dk.reker;
+
 /** Outcomes that may occur. */
 enum Choice {
   ROCK(1, 2),

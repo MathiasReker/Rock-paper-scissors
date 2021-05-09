@@ -1,3 +1,5 @@
+package dk.reker;
+
 import java.util.Scanner;
 
 class Human implements Player {

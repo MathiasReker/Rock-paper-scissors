@@ -1,3 +1,5 @@
+package dk.reker;
+
 import java.util.Random;
 
 class Computer implements Player {
