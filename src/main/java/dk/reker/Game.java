@@ -34,7 +34,7 @@ class Game {
    *
    * @return Position
    */
-  private Position calculateResult() {
+  Position calculateResult() {
     humanChoice = new Human().takeTurn();
     computerChoice = new Computer().takeTurn();
 
@@ -58,7 +58,7 @@ class Game {
   }
 
   /** Factor a menu based on the possible choices. */
-  private void displayMenu() {
+  void displayMenu() {
     String[] result = new String[Choice.values().length];
 
     for (int i = 0; i < Choice.values().length; i++) {
@@ -69,7 +69,7 @@ class Game {
   }
 
   /** Display the result in the console. */
-  private void displayResult() {
+  void displayResult() {
     Position position = calculateResult();
 
     System.out.printf("You: %s%n", humanChoice);
@@ -89,7 +89,7 @@ class Game {
   }
 
   /** Display the final score in the console. */
-  private void displayFinalScore() {
+  void displayFinalScore() {
     if (SCORE.getHumanWins() > SCORE.getComputerWins()) {
       System.out.println("You won the game!");
     } else {

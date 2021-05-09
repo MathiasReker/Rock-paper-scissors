@@ -42,7 +42,7 @@ class Human implements Player {
    * @param max int
    * @return int
    */
-  private int validateIntegerRange(Scanner in, int min, int max) {
+  int validateIntegerRange(Scanner in, int min, int max) {
     int result = validateInteger(in);
 
     while (result > max || result < min) {

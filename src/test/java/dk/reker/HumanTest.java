@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 public class HumanTest {
   @Test
@@ -62,5 +63,26 @@ public class HumanTest {
     System.setIn(in);
 
     Assertions.assertThrows(NoSuchElementException.class, () -> new Human().getChoice());
+  }
+
+  @Test
+  public void testValidateIntegerRange() {
+    String input = "2";
+    InputStream in = new ByteArrayInputStream(input.getBytes());
+    System.setIn(in);
+
+    int result = new Human().validateIntegerRange(new Scanner(in), 1, Choice.values().length);
+    Assertions.assertEquals(2, result);
+  }
+
+  @Test
+  public void testValidateIntegerRange2() {
+    String input = "100";
+    InputStream in = new ByteArrayInputStream(input.getBytes());
+    System.setIn(in);
+
+    Assertions.assertThrows(
+        NoSuchElementException.class,
+        () -> new Human().validateIntegerRange(new Scanner(in), 1, Choice.values().length));
   }
 }
