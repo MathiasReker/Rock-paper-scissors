@@ -52,7 +52,7 @@ class Game {
       return Position.COMPUTER;
     }
 
-    throw new NullPointerException("Something went wrong");
+    throw new IllegalArgumentException("Something went wrong");
   }
 
   /** Factor a menu based on the possible choices. */
