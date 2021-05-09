@@ -1,0 +1,9 @@
+dist: xenial
+
+language: java
+
+jdk:
+  - openjdk16
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t aeeddf83-9667-423e-b0c2-4e82069eb22c
