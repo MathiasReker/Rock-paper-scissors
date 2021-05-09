@@ -3,11 +3,11 @@ package dk.reker;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class ScoreTest {
+public class ScoreTest {
   Score score = new Score();
 
   @Test
-  void testSetHumanWins() {
+  public void testSetHumanWins() {
     for (int i = 0; i < 3; i++) {
       score.setHumanWins();
     }
@@ -16,7 +16,7 @@ class ScoreTest {
   }
 
   @Test
-  void testSetComputerWins() {
+  public void testSetComputerWins() {
     for (int i = 0; i < 3; i++) {
       score.setComputerWins();
     }
@@ -25,7 +25,7 @@ class ScoreTest {
   }
 
   @Test
-  void testSetTotalRounds() {
+  public void testSetTotalRounds() {
     for (int i = 0; i < 3; i++) {
       score.setTotalRounds();
     }

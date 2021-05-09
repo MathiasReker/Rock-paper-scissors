@@ -9,10 +9,10 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.NoSuchElementException;
 
-class GameTest {
+public class GameTest {
 
   @Test
-  void testCalculateResult() {
+  public void testCalculateResult() {
     String input = "-1";
     InputStream in = new ByteArrayInputStream(input.getBytes());
     System.setIn(in);
@@ -21,7 +21,7 @@ class GameTest {
   }
 
   @Test
-  void testDisplayMenu() {
+  public void testDisplayMenu() {
     ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     System.setOut(new PrintStream(outContent));
 

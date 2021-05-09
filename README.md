@@ -6,6 +6,7 @@
 # Rock-paper-scissors
 
 ## License
+
 [![FOSSA Status][fossa-large]][fossa-badge]
 
 [contributors-shield]: https://img.shields.io/github/contributors/MathiasReker/Rock-paper-scissors.svg
