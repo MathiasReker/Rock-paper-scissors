@@ -36,19 +36,19 @@ class Game {
     humanChoice = new Human().takeTurn();
     computerChoice = new Computer().takeTurn();
 
-    SCORE.totalRounds();
+    SCORE.setTotalRounds();
 
     if (computerChoice.equals(humanChoice)) {
       return Position.TIE;
     }
 
     if (computerChoice.isWinBy(humanChoice)) {
-      SCORE.humanWins();
+      SCORE.setHumanWins();
       return Position.PLAYER;
     }
 
     if (humanChoice.isWinBy(computerChoice)) {
-      SCORE.computerWins();
+      SCORE.setComputerWins();
       return Position.COMPUTER;
     }
 

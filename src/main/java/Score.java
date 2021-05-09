@@ -4,7 +4,7 @@ class Score {
   private int gamesWonByComputer;
   private int gameRounds;
 
-  void humanWins() {
+  void setHumanWins() {
     gamesWonByHuman++;
   }
 
@@ -12,7 +12,7 @@ class Score {
     return gamesWonByHuman;
   }
 
-  void computerWins() {
+  void setComputerWins() {
     gamesWonByComputer++;
   }
 
@@ -20,7 +20,7 @@ class Score {
     return gamesWonByComputer;
   }
 
-  void totalRounds() {
+  void setTotalRounds() {
     gameRounds++;
   }
 
